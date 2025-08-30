@@ -184,7 +184,7 @@ def main():
         # Initialize transcriber
         transcriber = LiveTranscriber(
             sample_rate=16000,  # Standard ASR sample rate
-            chunk_duration=0.5  # 1 second chunks for responsiveness
+            chunk_duration=1.0  # 1 second chunks for responsiveness
         )
 
         # Start live transcription
